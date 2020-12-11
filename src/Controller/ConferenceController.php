@@ -35,7 +35,7 @@ class ConferenceController extends AbstractController
     }
 
     /**
-     * @Route("/conference/{id}", name="conference")
+     * @Route("/conference/{slug}", name="conference")
      * @param Conference $conference
      * @param CommentRepository $comments
      * @return Response
